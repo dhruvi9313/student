@@ -5,7 +5,7 @@ from django.db import models
 class student(models.Model):
     name=models.CharField(max_length=150)
     Email=models.EmailField()
-    marks=models.IntegerField()
+    Marks=models.IntegerField()
     address=models.TextField(null=True,blank=True)
     class Meta:
         db_table='studenlist'
